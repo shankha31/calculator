@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
+.calculator {
+    width: 228px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #ccc;
+    background-color: black;
+  }
+  
+  #result {
+    width: 95%;
+    height: 5rem;
+    margin-bottom: 10px;
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: right;
+    border: none;
+    background-color: #f9f9f9;
+    color: black;
+  }
+  
+  button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 2px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f9f9f9;
+    box-shadow: 1px 1px 1px #ccc;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #eee;
+  }
+  
+  .double {
+    width: 108px;
+  }
+  
+  .operator {
+    background-color: #ccc;
+    color: #fff;
+  }
+  .equal{
+    background-color: #ccc;
+    color: #fff;
+    width: 98%;
+    margin-top: 5px;
+  }
+  .heading{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+    font-family: 'Ysabeau', sans-serif;
+  }
+
+  
